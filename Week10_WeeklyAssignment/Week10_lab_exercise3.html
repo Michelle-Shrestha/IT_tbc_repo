@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise-3</title>
+    </head>
+    <body>
+        <script>
+            function result() {
+                var marks = parseFloat(prompt("Enter your Marks:"));
+                if (marks >= 80 && marks <= 100) {
+                    alert("Congratulations! You are ranked in Distinction!!");
+                } else if (marks >= 60 && marks < 80) {
+                    alert("Congratulations! You are ranked in First Division!!");
+                } else if (marks >= 50 && marks < 60) {
+                    alert("Congratulations! You are ranked in Second Division!!");
+                } else if (marks >= 40 && marks < 50) {
+                    alert("COngratulations! You are ranked in Third Division");
+                } else {
+                    alert("Sorry! You have Failed!!");
+                }
+            }
+            result();
+        </script>
+    </body>
+</html>

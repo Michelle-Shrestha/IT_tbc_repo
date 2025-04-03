@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exercise-5</title>
+        <style>
+            img {
+                margin-right: 20px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <script>
+            function loop_images() {
+                // Using a for loop to display 4 images
+                for (var i = 1; i <= 4; i++) {
+                    var img = document.createElement("img"); // Create an <img> element
+                    img.src = i + ".jpg";                    // Set the src attribute to 1.jpg, 2.jpg, etc.
+                    img.alt = "Image " + i;                  // Set an alt text for the image
+                    img.width = 300;                         // Set image width
+                    img.height = 200;                        // Set image height
+                    document.body.appendChild(img);          // Append the image to the body
+                }
+            }
+            loop_images();
+        </script>
+    </body>
+</html>

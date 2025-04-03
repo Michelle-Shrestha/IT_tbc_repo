@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Exercise-2</title>
+  </head>
+  <style>
+    .form{
+      border: 3px solid black;
+      padding: 10px;
+      margin: 5px;
+      display: inline-block;
+    }
+    #Text{
+      width: 320px;
+      opacity: 0.7;
+      color: black;
+      padding: 5px 15px;
+      border: 1px solid grey;
+      border-radius: 2px;
+    }
+  </style>
+  <body>
+    <div class="form">
+      <caption>Search our web site!</caption><br>
+      <hr size="3" width="350px" color="black"><br>
+      <form action="url" method="get">
+        Where do you want to search? <br><br>
+        <input type="radio" id="WS">
+        <label for="WS">Whole Site</label><br>
+        <input type="radio" id="BPS">
+        <label for="BPS">Business Partners Section</label><br>
+        <input type="radio" id="CCS">
+        <label for="CCS">Corporate Communications Section</label><br>
+        <input type="radio" id="LES">
+        <label for="LES">Lotus Education Section </label><br><br>
+        <label for="Text" >Enter a word or two that we can search on:</label><br>
+        <input type="text" id="Text"> <br> <br>
+        <input type="submit" >
+        <input type="reset" value="Clear">
+      </form>
+    </div>
+  </body>
+</html>
